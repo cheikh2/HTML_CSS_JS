@@ -3,11 +3,12 @@
   <head>   
   <title></title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="Compte.js"></script>
   </head>
   <body>
     <div class="compteform"><h1>CREATION DE COMPTE</h1></div>
       <div class="main">
-        <form action="" method="post" >
+        <form method="post" action="Compte.php" id="myform">
           <div id="name">
 
             <h2 class="compte">Infos compte</h2>
@@ -22,8 +23,10 @@
 
 
             <h2 class="client">Infos client</h2>
-            <input class="prenom" type="text" name="prenom"><br>
-            <label class="prenomlab">Prenom</label>
+            &emsp;&emsp;&emsp;<span id="missPrenom"></span><br>
+            <input class="prenom" type="text" name="prenom" id="prenom"><br>
+            <label class="prenomlab" for="prenom">Prenom</label>
+            
 
             <input class="nom" type="text" name="nom">
             <label class="nomlab">Nom</label>
@@ -61,10 +64,32 @@
             <label class="cniEmployeurlab">CNI emplpoyeur</label><br>
 
             
-            <button type="submit">CREER</button>
+            <button type="submit">VALIDER</button>
             <button class="btn" type="submit">ANNULER</button>
           </div>
         </form>
+        <script>
+            let myform = document.getElementById("myform");
+
+            myform.addEventListener("submit", function(e){
+
+              let myPrenom = document.getElementById("prenom");
+              let myRegex = /^[a-zA-Z-\s]+$/;
+
+              if (myPrenom.value.trim()  ==""){
+                  let myPrenomErr = document.getElementById("missPrenom");
+                  myPrenomErr.innerHTML = "le champ prenom est requis";
+                  myPrenomErr.style.color = "red";
+                  e.preventDefault();
+                  }
+                  else if(myRegex.test(myPrenom.value) == false){
+                  let myPrenomErr = document.getElementById("missPrenom");
+                  myPrenomErr.innerHTML = "Veuillez revoir le format de votre prenom";
+                  myPrenomErr.style.color = "red";
+                  e.preventDefault();
+                  }
+              });
+        </script>
       </div>
   </body>
 </html>
