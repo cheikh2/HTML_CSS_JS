@@ -12,7 +12,7 @@
         }
         
         .compteform {
-            width: 800px;
+            width: 1100px;
             background-color: rgb(0, 0, 0, 0.6);
             margin: auto;
             color: #ffffff;
@@ -23,7 +23,7 @@
         
         .main {
             background-color: rgb(0, 0, 0, 0.5);
-            width: 800px;
+            width: 1100px;
             margin: auto;
         }
         
@@ -37,9 +37,9 @@
         
         .compte {
             background-color: rgba(7, 126, 61, 0.6);
-            margin-left: 120px;
-            margin-top: 10px;
-            width: 125px;
+            margin-left: 250px;
+            margin-top: 0px;
+            width: 175px;
             color: white;
             font-size: 18px;
             font-weight: 700;
@@ -50,9 +50,9 @@
         
         .client {
             background-color: rgba(7, 126, 61, 0.6);
-            margin-left: 120px;
-            margin-top: -10px;
-            width: 125px;
+            margin-left: 250px;
+            margin-top: -55px;
+            width: 175px;
             color: white;
             font-size: 18px;
             font-weight: 700;
@@ -63,8 +63,8 @@
         
         .numAgence {
             position: relative;
-            left: 10px;
-            top: 10px;
+            left: 20px;
+            top: 30px;
             line-height: 30px;
             border-radius: 6px;
             padding: 0 22px;
@@ -76,14 +76,14 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 83px;
-            top: 0px;
+            left: -165px;
+            top: 55px;
         }
         
         .numCompte {
             position: relative;
-            left: 160px;
-            top: -24px;
+            left: 282px;
+            top: -4px;
             line-height: 30px;
             border-radius: 6px;
             padding: 0 22px;
@@ -96,14 +96,14 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: -20px;
-            top: 0px;
+            left: 95px;
+            top: 20px;
         }
         
         .cleRib {
             position: relative;
-            left: 55px;
-            top: -24px;
+            left: 545px;
+            top: -38px;
             line-height: 30px;
             border-radius: 6px;
             padding: 0 22px;
@@ -116,17 +116,32 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 610px;
-            top: -22px;
+            left: 640px;
+            top: -40px;
+        }
+        
+        .option {
+            position: relative;
+            left: 810px;
+            top: -89px;
+            line-height: 30px;
+            width: 247px;
+            height: 32px;
+            padding: 0 22px;
+            border-radius: 6px;
+            font-size: 16px;
+            color: #555;
+            outline: none;
+            overflow: hidden;
         }
         
         .prenom {
             position: relative;
-            left: 10px;
+            left: 20px;
             top: 14px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -137,16 +152,16 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 150px;
-            top: 4px;
+            top: 12px;
         }
         
         .nom {
             position: relative;
-            left: -43px;
-            top: 49px;
+            left: 20px;
+            top: 44px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -156,17 +171,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: -273px;
+            left: -180px;
             top: 72px;
         }
         
         .adress {
             position: relative;
-            left: 405px;
-            top: -54px;
+            left: 725px;
+            top: -73px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -176,17 +191,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 180px;
-            top: -30px;
+            left: 530px;
+            top: -47px;
         }
         
         .email {
             position: relative;
-            left: 405px;
-            top: -19px;
+            left: 372px;
+            top: -107px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -197,16 +212,36 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 180px;
-            top: 5px;
+            top: -83px;
+        }
+        
+        .typeClient {
+            position: relative;
+            left: 372px;
+            top: -59px;
+            line-height: 30px;
+            border-radius: 6px;
+            padding: 0 65px;
+            font-size: 16px;
+            color: #555;
+        }
+        
+        .typeClientlab {
+            position: relative;
+            color: #e5e5e5;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 160px;
+            top: -35px;
         }
         
         .telephone {
             position: relative;
-            left: -400px;
-            top: 50px;
+            left: 725px;
+            top: -93px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -216,17 +251,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 150px;
-            top: 40px;
+            left: 520px;
+            top: -67px;
         }
         
         .cni {
             position: relative;
-            left: 335px;
-            top: 16px;
+            left: 372px;
+            top: -45px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -236,17 +271,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 111px;
-            top: 40px;
+            left: 150px;
+            top: -16px;
         }
         
         .profession {
             position: relative;
-            left: 10px;
-            top: 50px;
+            left: 20px;
+            top: -97px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -256,17 +291,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: -220px;
-            top: 75px;
+            left: -200px;
+            top: -72px;
         }
         
         .salaire {
             position: relative;
-            left: 405px;
-            top: 16px;
+            left: 725px;
+            top: -148px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 65px;
             font-size: 16px;
             color: #555;
         }
@@ -276,15 +311,15 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 180px;
-            top: 40px;
+            left: 520px;
+            top: -120px;
         }
         
         .employeur {
             background-color: rgba(7, 126, 61, 0.6);
-            margin-left: 120px;
-            margin-top: 40px;
-            width: 125px;
+            margin-left: 250px;
+            margin-top: -10px;
+            width: 175px;
             color: white;
             font-size: 18px;
             font-weight: 700;
@@ -299,7 +334,7 @@
             top: 10px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 22px;
             font-size: 16px;
             color: #555;
         }
@@ -309,17 +344,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 149px;
-            top: -1px;
+            left: 73px;
+            top: 10px;
         }
         
         .raisonS {
             position: relative;
-            left: 280px;
-            top: -24px;
+            left: 277px;
+            top: -43px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 22px;
             font-size: 16px;
             color: #555;
         }
@@ -329,17 +364,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 56px;
-            top: 0px;
+            left: 95px;
+            top: -15px;
         }
         
         .adressEmpl {
             position: relative;
-            left: 10px;
-            top: 10px;
+            left: 544px;
+            top: -77px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 22px;
             font-size: 16px;
             color: #555;
         }
@@ -349,17 +384,17 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: -222px;
-            top: 32px;
+            left: 356px;
+            top: -48px;
         }
         
         .cniEmployeur {
             position: relative;
-            left: 404px;
-            top: -24px;
+            left: 810px;
+            top: -111px;
             line-height: 30px;
             border-radius: 6px;
-            padding: 0 80px;
+            padding: 0 22px;
             font-size: 16px;
             color: #555;
         }
@@ -369,8 +404,8 @@
             color: #e5e5e5;
             text-transform: capitalize;
             font-size: 14px;
-            left: 181px;
-            top: 0px;
+            left: 631px;
+            top: -85px;
         }
         
         button {
@@ -378,14 +413,15 @@
             display: block;
             margin: 20px 0px 0px 20px;
             text-align: center;
-            margin-left: 90px;
+            margin-left: 150px;
             border-radius: 12px;
             border: 2px solid #336473;
-            padding: 14px 110px;
+            padding: 14px 140px;
             outline: none;
             color: white;
             cursor: pointer;
             transition: 0.25px;
+            margin-top: -30px;
         }
         
         button:hover {
@@ -396,10 +432,10 @@
             background-color: #e6e9e850;
             display: block;
             margin: 20px 0px 0px 20px;
-            margin-left: 420px;
+            margin-left: 540px;
             margin-top: -48px;
             border: 2px solid #336473;
-            padding: 14px 102px;
+            padding: 14px 140px;
             outline: none;
             color: white;
             cursor: pointer;
@@ -410,6 +446,128 @@
             background-color: #607407;
         }
         
-        #missPre {
-            margin-top: -1000px;
+        #missAgence {
+            position: relative;
+            margin-left: 40px;
+            top: 28px;
+        }
+        
+        #missCompte {
+            position: relative;
+            margin-left: -60px;
+            margin-top: -900px;
+        }
+        
+        #missRib {
+            position: relative;
+            margin-left: 200px;
+            top: -34px;
+        }
+        
+        #missOption {
+            position: relative;
+            margin-left: 760px;
+            top: -94px;
+        }
+        
+        #missPrenom {
+            position: relative;
+            margin-left: 60px;
+            top: 10px;
+        }
+        
+        #missEmail {
+            position: relative;
+            margin-left: 40px;
+            top: -104px;
+        }
+        
+        #missAdress {
+            position: relative;
+            margin-left: 400px;
+            top: -70px;
+        }
+        
+        #missNom {
+            position: relative;
+            margin-left: 10px;
+            top: 40px;
+        }
+        
+        #missTypeClient {
+            position: relative;
+            margin-left: 50px;
+            top: -53px;
+        }
+        
+        #missTelephone {
+            position: relative;
+            margin-left: 350px;
+            top: -89px;
+        }
+        
+        #missProfession {
+            position: relative;
+            margin-left: 70px;
+            top: -100px;
+        }
+        
+        #missCni {
+            position: relative;
+            margin-left: 40px;
+            top: -40px;
+        }
+        
+        #missSalaire {
+            position: relative;
+            margin-left: 800px;
+            top: -150px;
+        }
+        
+        #missPrenomEmpl {
+            position: relative;
+            margin-left: 35px;
+            top: 10px;
+        }
+        
+        #missRaisonS {
+            position: relative;
+            margin-left: 180px;
+            top: -44px;
+        }
+        
+        #missAdressEmpl {
+            position: relative;
+            margin-left: 228px;
+            top: -70px;
+        }
+        
+        #missEmployeur {
+            position: relative;
+            margin-left: 460px;
+            top: -103px;
+        }
+        
+        #employeradio {
+            margin-left: 95px;
+            margin-top: -100px;
+            font-size: 18px;
+            color: white;
+        }
+        
+        .radio {
+            display: inline-block;
+            padding-right: 10px;
+            font-size: 20px;
+            margin-left: 35px;
+            margin-top: 15px;
+            color: white;
+        }
+        
+        .radio input {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            outline: none;
         }
