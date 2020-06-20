@@ -47,14 +47,14 @@ myform.addEventListener("submit", function(e) {
         e.preventDefault();
     }
 
-    /*let myOption = document.getElementById("typeCompte");
+    let myOption = document.getElementById("typeCompte");
 
-    if (myRib.value.trim() == "") {
+    if (myOption.value.trim() == "") {
         let myOptionErr = document.getElementById("missOption");
         myOptionErr.innerHTML = "le champ option est requis";
         myOptionErr.style.color = "red";
         e.preventDefault();
-    }*/
+    }
 
     let myPrenom = document.getElementById("prenom");
     let myRegex = /^[a-zA-Z0-9_]+$/;
@@ -121,21 +121,15 @@ myform.addEventListener("submit", function(e) {
 
     // Controle du type client
     let myType = document.getElementById("typeClient");
-    let typeRegex = /^[a-zA-Z-\s]+$/;
 
     if (myType.value.trim() == "") {
         let myTypeErr = document.getElementById("missTypeClient");
         myTypeErr.innerHTML = "le champ type client est requis";
         myTypeErr.style.color = "red";
         e.preventDefault();
-    } else if (typeRegex.test(myType.value) == false) {
-        let myTypeErr = document.getElementById("missTypeClient");
-        myTypeErr.innerHTML = "Veuillez revoir le format";
-        myTypeErr.style.color = "red";
-        e.preventDefault();
-    }
+    } 
 
-    // Controle du type telephone
+    // Controle du telephone
     let myTelephone = document.getElementById("telephone");
     let telephoneRegex = /^(77|78|70|76)[0-9]{7}$/;
 
@@ -262,4 +256,5 @@ myform.addEventListener("submit", function(e) {
         myEmployeurErr.style.color = "red";
         e.preventDefault();
     }
+
 });

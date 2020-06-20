@@ -217,13 +217,17 @@
         
         .typeClient {
             position: relative;
-            left: 372px;
+            left: 374px;
             top: -59px;
             line-height: 30px;
-            border-radius: 6px;
+            width: 330px;
+            height: 32px;
             padding: 0 65px;
+            border-radius: 6px;
             font-size: 16px;
             color: #555;
+            outline: none;
+            overflow: hidden;
         }
         
         .typeClientlab {
@@ -502,7 +506,7 @@
         
         #missTelephone {
             position: relative;
-            margin-left: 350px;
+            margin-left: 440px;
             top: -89px;
         }
         
