@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>   
-  <title>Mon Formulaire</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Formulaire creation compte"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mon Formulaire</title>
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
@@ -11,19 +15,19 @@
         <form method="post" action="Compte.php" id="myform">
           <div id="name">
 
-            <h2 class="compte">Infos compte</h2>
+            <h2 class="compte">Infos_compte</h2>
 
             <span id="missAgence"></span><br>
               <input class="numAgence" type="text" name="numAgence" id="numAgence">
-                <label class="numAgencelab">Numero Agence</label>
+                <label class="numAgencelab">Numero Agence *</label>
 
             <span id="missCompte"></span><br>
               <input class="numCompte" type="text" name="numCompte" id="numCompte">
-                <label class="numComptelab">Numero Compte</label>
+                <label class="numComptelab">Numero Compte *</label>
 
             <span id="missRib"></span><br>
               <input class="cleRib" type="text" name="cleRib" id="cleRib"><br>
-                <label class="numRiblab">Cle Rib</label>
+                <label class="numRiblab">Cle Rib *</label>
 
             <span id="missOption"></span><br>
               <select class="option" name="typeCompte" id="typeCompte">
@@ -32,74 +36,76 @@
                   <option>compte bloque</option>
               </select>
 
-            <h2 class="client">Infos client</h2>
+            <h2 class="client">Infos_client</h2>
+
 
             <span id="missPrenom"></span><br>
               <input class="prenom" type="text" name="prenom" id="prenom"><br>
-                <label class="prenomlab">Prenom</label>
+                <label class="prenomlab">Prenom *</label>
             
 
             <span id="missNom"></span><br>
               <input class="nom" type="text" name="nom" id="nom">
-                <label class="nomlab">Nom</label>
+                <label class="nomlab">Nom *</label>
+
 
             <span id="missAdress"></span><br>
               <input class="adress" type="text" name="adress" id="adress">
-                <label class="adresslab">Adresse</label>
+                <label class="adresslab">Adresse *</label>
+
 
             <span id="missEmail"></span><br>
               <input class="email" type="text" name="email" id="email">
                 <label class="emaillab">Email</label>
 
+
             <span id="missTypeClient"></span><br>
-              <select class="typeClient" name="typeClient" id="typeClient">
-                <option disabled="disabled" selected="selected">Type de client</option>
-                  <option>client physique</option>
-                  <option>client moral</option>
+              <select class="typeClient" id="typeClient">
+                  <option value="0">Type de client</option>
+                  <option value="1">client physique</option>
+                  <option value="2">client moral</option>
             </select>
+
 
             <span id="missTelephone"></span><br>
               <input class="telephone" type="text" name="telephone" id="telephone">
                 <label class="telephonelab">Telephone</label>
 
+
             <span id="missCni"></span><br>
               <input class="cni" type="text" name="cni" id="cni">
                 <label class="cnilab">CNI client</label><br>
+
 
             <span id="missProfession"></span><br>
               <input class="profession" type="text" name="profession" id="profession">
                 <label class="professionlab">Profession</label>
 
+
             <span id="missSalaire"></span><br>
               <input class="salaire" type="text" name="salaire" id="salaire">
-                <label class="salairelab">Salaire</label><br>
+                <label class="salairelab">Salaire</label><br>                  
 
-             <h2 id="employeradio">Etes-vous employe</h2>
 
-             <label class="radio">
-              <input class="radio1" type="radio" name="">
-                <span class="checkmark"></span>
-                Oui
-             </label>
-              <label class="radio">
-                <input class="radio2" type="radio" name="">
-                  <span class="checkmark"></span>
-                Non
-             </label><br>
+             <h2 class="employeur">Infos_employeur</h2><br/>
 
-             <h2 class="employeur">Infos_employeur</h2>
+             <input  type="checkbox" id="employeradio" value="je suis un employe" checked onchange="clientStatus()" />
+                <label class="profil">Oui je suis un employé</label><br/>
 
              <span id="missPrenomEmpl"></span><br>
               <input class="prenomEmpl" type="text" name="prenomEmpl" id="prenomEmpl"><br>
                 <label class="prenomEmplab">Prenom employeur</label>
 
+
             <span id="missRaisonS"></span><br>
               <input class="raisonS" type="text" name="raisonS" id="raisonS">
                 <label class="raisonSlab">Raison social</label>
 
+
             <span id="missAdressEmpl"></span><br>
               <input class="adressEmpl" type="text" name="adressEmpl" id="adressEmpl">
                 <label class="adressEmpllab">Adresse employeur</label>
+
 
             <span id="missEmployeur"></span><br>
               <input class="cniEmployeur" type="text" name="cniEmployeur" id="cniEmployeur">
@@ -107,7 +113,7 @@
 
             
             <button type="submit">VALIDER</button>
-            <button class="btn" type="submit">ANNULER</button>
+            <button class="btn">ANNULER</button>
 
           </div>
         </form>

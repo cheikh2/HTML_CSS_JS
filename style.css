@@ -4,7 +4,8 @@
         }
         
         body {
-            background-image: url(img/nature.jpg);
+           /* background-image: url(img/nature.jpg);*/
+            background-color: rgb(12, 136, 145);
             background-repeat: no-repeat;
             background-size: cover;
             font-family: sans-serif;
@@ -12,6 +13,8 @@
         }
         
         .compteform {
+            display: flex;
+            flex-flow: column wrap;
             width: 1100px;
             background-color: rgb(0, 0, 0, 0.6);
             margin: auto;
@@ -22,6 +25,8 @@
         }
         
         .main {
+            display: flex;
+            flex-flow: column wrap;
             background-color: rgb(0, 0, 0, 0.5);
             width: 1100px;
             margin: auto;
@@ -45,7 +50,7 @@
             font-weight: 700;
             padding: 10px 200px 10px 200px;
             text-align: center;
-            border-radius: 15px;
+            border-radius: 5px;
         }
         
         .client {
@@ -58,7 +63,7 @@
             font-weight: 700;
             padding: 10px 200px 10px 200px;
             text-align: center;
-            border-radius: 15px;
+            border-radius: 5px;
         }
         
         .numAgence {
@@ -77,7 +82,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: -165px;
-            top: 55px;
+            top: 5px;
         }
         
         .numCompte {
@@ -97,7 +102,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 95px;
-            top: 20px;
+            top: -30px;
         }
         
         .cleRib {
@@ -117,7 +122,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 640px;
-            top: -40px;
+            top: -90px;
         }
         
         .option {
@@ -152,7 +157,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 150px;
-            top: 12px;
+            top: -42px;
         }
         
         .nom {
@@ -172,7 +177,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: -180px;
-            top: 72px;
+            top: 22px;
         }
         
         .adress {
@@ -192,7 +197,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 530px;
-            top: -47px;
+            top: -97px;
         }
         
         .email {
@@ -212,7 +217,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 180px;
-            top: -83px;
+            top: -133px;
         }
         
         .typeClient {
@@ -236,7 +241,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 160px;
-            top: -35px;
+            top: -85px;
         }
         
         .telephone {
@@ -256,7 +261,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 520px;
-            top: -67px;
+            top: -117px;
         }
         
         .cni {
@@ -276,7 +281,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 150px;
-            top: -16px;
+            top: -70px;
         }
         
         .profession {
@@ -296,7 +301,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: -200px;
-            top: -72px;
+            top: -122px;
         }
         
         .salaire {
@@ -316,20 +321,25 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 520px;
-            top: -120px;
+            top: -174px;
         }
         
         .employeur {
             background-color: rgba(7, 126, 61, 0.6);
             margin-left: 250px;
-            margin-top: -10px;
+            margin-top: -110px;
             width: 175px;
             color: white;
             font-size: 18px;
             font-weight: 700;
             padding: 10px 200px 10px 200px;
             text-align: center;
-            border-radius: 15px;
+            border-radius: 5px;
+        }
+
+        .profil{
+            color: white;
+            font-weight: bold;
         }
         
         .prenomEmpl {
@@ -349,7 +359,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 73px;
-            top: 10px;
+            top: -42px;
         }
         
         .raisonS {
@@ -369,7 +379,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 95px;
-            top: -15px;
+            top: -69px;
         }
         
         .adressEmpl {
@@ -389,7 +399,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 356px;
-            top: -48px;
+            top: -104px;
         }
         
         .cniEmployeur {
@@ -409,7 +419,7 @@
             text-transform: capitalize;
             font-size: 14px;
             left: 631px;
-            top: -85px;
+            top: -137px;
         }
         
         button {
@@ -425,7 +435,7 @@
             color: white;
             cursor: pointer;
             transition: 0.25px;
-            margin-top: -30px;
+            margin-top: -70px;
         }
         
         button:hover {
@@ -453,125 +463,552 @@
         #missAgence {
             position: relative;
             margin-left: 40px;
-            top: 28px;
+            top: 83px;
         }
         
         #missCompte {
-            position: relative;
+            position: absolute;
             margin-left: -60px;
-            margin-top: -900px;
+            margin-top: 65px;
         }
         
         #missRib {
             position: relative;
             margin-left: 200px;
-            top: -34px;
+            top: 24px;
         }
         
         #missOption {
             position: relative;
             margin-left: 760px;
-            top: -94px;
+            top: -39px;
         }
         
         #missPrenom {
             position: relative;
             margin-left: 60px;
-            top: 10px;
+            top: 65px;
         }
         
         #missEmail {
             position: relative;
             margin-left: 40px;
-            top: -104px;
+            top: -49px;
         }
         
         #missAdress {
             position: relative;
             margin-left: 400px;
-            top: -70px;
+            top: -15px;
         }
         
         #missNom {
             position: relative;
             margin-left: 10px;
-            top: 40px;
+            top: 95px;
         }
         
         #missTypeClient {
             position: relative;
             margin-left: 50px;
-            top: -53px;
+            top: 2px;
         }
         
         #missTelephone {
             position: relative;
             margin-left: 440px;
-            top: -89px;
+            top: -34px;
         }
         
         #missProfession {
             position: relative;
             margin-left: 70px;
-            top: -100px;
+            top: -45px;
         }
         
         #missCni {
             position: relative;
             margin-left: 40px;
-            top: -40px;
+            top: 15px;
         }
         
         #missSalaire {
             position: relative;
             margin-left: 800px;
-            top: -150px;
+            top: -95px;
         }
         
         #missPrenomEmpl {
             position: relative;
             margin-left: 35px;
-            top: 10px;
+            top: 65px;
         }
         
         #missRaisonS {
             position: relative;
             margin-left: 180px;
-            top: -44px;
+            top: 11px;
         }
         
         #missAdressEmpl {
             position: relative;
             margin-left: 228px;
-            top: -70px;
+            top: -15px;
         }
         
         #missEmployeur {
             position: relative;
             margin-left: 460px;
-            top: -103px;
+            top: -48px;
         }
         
         #employeradio {
-            margin-left: 95px;
-            margin-top: -100px;
-            font-size: 18px;
-            color: white;
+            margin-left: 20px;
         }
-        
-        .radio {
-            display: inline-block;
-            padding-right: 10px;
-            font-size: 20px;
-            margin-left: 35px;
-            margin-top: 15px;
-            color: white;
-        }
-        
-        .radio input {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            cursor: pointer;
-            outline: none;
+
+
+        @media screen and (max-width: 1120px) {  
+            
+            .compteform {
+                width: 760px;
+               
+            }
+            
+            .main {
+                width: 760px;
+            }
+            
+            .compte {
+                margin-left: 150px;
+                width: 75px;
+                padding: 5px 200px 5px 200px;
+                border-radius: 15px;
+            }
+            
+            .client {
+                margin-left: 150px;
+                width: 75px;
+                padding: 5px 200px 5px 200px;
+                border-radius: 15px;
+                margin-top: 10px;
+            }
+
+            .employeur{
+                margin-left: 150px;
+                width: 75px;
+                padding: 5px 200px 5px 200px;
+                border-radius: 15px;
+                margin-top: 40px;
+            }
+
+            .numAgence {
+                left: 20px;
+                padding: 0 65px;
+
+            }
+            
+            .numAgencelab {
+                left: -200px;
+            }
+            
+            .numCompte {
+                left: 370px;
+                padding: 0 65px;
+            }
+            
+            .numComptelab {
+                left: 135px;
+            }
+            
+            .cleRib {
+                left: 20px;
+                top: 28px;
+                padding: 0 65px;
+            }
+            
+            .numRiblab {
+                left: 135px;
+                top: 30px;
+            }
+
+            #missRib {
+                margin-left: -408px;
+                top: 94px;
+            }
+            
+            .option {
+                left: 370px;
+                top: -40px;
+                width: 332px;
+                padding: 0 65px;
+            }
+
+            .adress {
+                left: 20px;
+                top: 165px;
+                padding: 0 65px;
+            }
+            
+            .adresslab {
+                left: -200px;
+                top: 140px;
+            }
+
+            #missAdress {
+                margin-left: -315px;
+                top: 220px;
+            }
+
+            .telephone {
+                left: 372px;
+                top: 67px;
+                padding: 0 65px;
+            }
+            
+            .telephonelab {
+                left: 150px;
+                top: 40px;
+            }
+
+            #missTelephone {
+                margin-left: 115px;
+                top: 120px;
+            }
+
+            #employeradio {
+                margin-top: -50px;
+            }
+            
+            .radio {               
+                margin-left: 65px;
+            }
+            
+            .salaire {
+                left: 372px;
+                top: 8px;
+                padding: 0 65px;
+            }
+            
+            .salairelab {
+                left: 150px;
+                top: -16px;
+            }
+
+            #missSalaire {
+                margin-left: 466px;
+                top: 60px;
+            }
+
+            .prenomEmpl {
+                padding: 0 65px;
+            }
+            
+            .raisonS {
+                padding: 0 65px;
+                margin-left: 96px;
+            }
+
+            #missRaisonS {
+                margin-left: 340px;
+            }
+
+            .adressEmpl {
+                left: 11px;
+                top: -5px;
+                padding: 0 65px;
+            }
+            
+            .adressEmpllab {
+                left: -265px;
+                top: -30px;
+            }
+
+            #missAdressEmpl {
+                margin-left: -488px;
+                top: 53px;
+            }
+
+            .cniEmployeur {
+                left: 373px;
+                top: -57px;
+                padding: 0 65px;
+            }
+            
+            .cniEmployeurlab {
+                left: 145px;
+                top: -85px;
+            }
+
+            #missEmployeur {
+                margin-left: 460px;
+                top: -3px;
+            }
+
+            button {  
+                display: block;
+                margin-left: 65px;
+                padding: 14px 110px;
+            }
+
+            .btn {
+                margin-left: 374px;
+                padding: 14px 110px;
+            }
+
+            @media screen and (max-width: 780px)  {
+                .compteform {
+                    width: 460px;
+                   
+                }
+                
+                .main {
+                    width: 460px;
+                }
+                
+                .compte {
+                    margin-left: 70px;
+                    padding: 5px 130px 5px 90px;
+                    border-radius: 5px;
+                }
+                
+                .client {
+                    margin-left: 70px;
+                    padding: 5px 130px 5px 90px;
+                    border-radius: 5px;
+                }
+    
+                .employeur{
+                    margin-left: 70px;
+                    padding: 5px 130px 5px 90px;
+                    border-radius: 5px;
+                }
+
+                .numAgence {
+                    left: 3px;
+                    padding: 0 5px;
+    
+                }
+                
+                .numAgencelab {
+                    left: -160px;
+                }
+                
+                .numCompte {
+                    left: 223px;
+                    padding: 0 5px;
+                }
+                
+                .numComptelab {
+                    left: 55px;
+                }
+
+                .cleRib {
+                    left: 3px;
+                    top: 28px;
+                    padding: 0 5px;
+                }
+                
+                .numRiblab {
+                    left: 80px;
+                    top: -20px;
+                }
+    
+                #missRib {
+                    margin-left: -290px;
+                    top: 94px;
+                }
+                
+                .option {
+                    left: 223px;
+                    top: -40px;
+                    width: 212px;
+                    padding: 0 5px;
+                }
+
+                .prenom {
+                    left: 3px;
+                    padding: 0 5px;
+                }
+                
+                .prenomlab {
+                    left: 80px;
+                    top: -42px;
+                }
+
+                #missPrenom {
+                    position: relative;
+                    margin-left: 40px;
+                }
+                
+                .email {
+                    left: 222px;
+                    padding: 0 5px;
+                }
+                
+                .emaillab {
+                    left: 90px;
+                }
+
+                #missEmail {
+                    margin-left: -20px;
+                }
+
+                .nom {
+                    left: 3px;
+                    padding: 0 5px;
+                }
+                
+                .nomlab {
+                    left: -140px;
+                }
+
+                #missNom{
+                    left: -30px;
+                }
+
+                .typeClient {
+                    left: 225px;
+                    width: 212px;
+                    top: -57px;
+                    padding: 0 5px;
+                }
+
+                .profession {
+                    left: 3px;
+                    padding: 0 5px;
+                }
+                
+                .professionlab {
+                    left: -150px;
+                }
+
+                #missProfession{
+                    margin-left: 40px;
+                }
+
+                .cni {
+                    left: 223px;
+                    padding: 0 5px;
+                }
+                
+                .cnilab {
+                    left: 80px;
+                }
+
+                #missCni{
+                    margin-left: -30px;
+                }
+
+                .adress {
+                    left: 3px;
+                    padding: 0 5px;
+                }
+                
+                .adresslab {
+                    left: -150px;
+                }
+    
+                #missAdress {
+                    margin-left: -215px;
+                }
+    
+                .telephone {
+                    left:223px;
+                    padding: 0 5px;
+                }
+                
+                .telephonelab {
+                    left: 80px;
+                    
+                }
+    
+                #missTelephone {
+                    margin-left: 55px;
+                    top: 125px;
+                }
+
+                .salaire {
+                    left: 52px;
+                    padding: 0 65px;
+                }
+                
+                .salairelab {
+                    left: -140px;
+                }
+
+                #missSalaire{
+                    margin-left: -120px;
+                    top: 70px;
+                }
+
+                .prenomEmpl {
+                    margin-left: -5px;
+                    padding: 0 5px;
+                }
+                
+                .prenomEmplab {
+                    left: 60px;
+                }
+
+                #missPrenomEmpl{
+                    margin-left: 40px;
+                }
+                
+                .raisonS {
+                    left: 130px;
+                    padding: 0 5px;
+                }
+                
+                .raisonSlab {
+                    left: -25px;
+                }
+
+                #missRaisonS{
+                    left: -200px;
+                }
+                
+                .adressEmpl {
+                    left: 5px;
+                    padding: 0 5px;
+                }
+                
+                .adressEmpllab {
+                    left: -162px;
+                }
+
+                #missAdressEmpl{
+                    left: 120px;
+                }
+                
+                .cniEmployeur {
+                    left: 225px;
+                    padding: 0 5px;
+                    top: -39px;
+                }
+                
+                .cniEmployeurlab {
+                    top: -63px;
+                    left: 65px;
+                }
+
+                #missEmployeur{
+                    top: 20px;
+                    margin-left: -85px;
+                }
+
+                button {  
+                    margin-top: 10px;
+                    margin-left: 32px;
+                    padding: 10px 60px;
+                }
+    
+                .btn {
+                    margin-top: -38px;
+                    margin-left: 230px;
+                    padding: 10px 60px;
+                }
+
+               
+            }
+    
         }
