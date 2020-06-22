@@ -466,14 +466,14 @@
         }
         
         #missCompte {
-            position: absolute;
-            margin-left: -60px;
-            margin-top: 65px;
+            position: relative;
+            margin-left: -35px;
+            top: 57px;
         }
         
         #missRib {
             position: relative;
-            margin-left: 200px;
+            margin-left: 240px;
             top: 24px;
         }
         
@@ -624,7 +624,7 @@
             }
 
             #missCompte{
-                left: 600px;
+                left: 50px;
             }
             
             .cleRib {
@@ -719,6 +719,10 @@
                 margin-left: 96px;
             }
 
+            .raisonSlab{
+                margin-left: -40px;
+            }
+
             #missRaisonS {
                 margin-left: 340px;
             }
@@ -809,6 +813,7 @@
                     margin-left: -20px;
 
                 }
+
                 .numCompte {
                     left: 223px;
                     padding: 0 5px;
@@ -819,7 +824,7 @@
                 }
 
                 #missCompte{
-                    margin-left: -220px;
+                    margin-left: -120px;
                 }
 
                 .cleRib {
@@ -1015,7 +1020,7 @@
                 }
 
                 #missAdressEmpl{
-                    left: 120px;
+                    left: 170px;
                 }
                 
                 .cniEmployeur {

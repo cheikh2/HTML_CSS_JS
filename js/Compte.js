@@ -25,7 +25,7 @@ myform.addEventListener("submit", function(e) {
 
         /**** Control du numéro agence ****/
     let myAgence = document.getElementById("numAgence");
-    let agenceRegex = /^[a-zA-Z0-9_]+$/;
+    let agenceRegex = /^[a-zA-Z0-9-]+$/;
 
     if (myAgence.value.trim() == "") {
         let myAgenceErr = document.getElementById("missAgence");
@@ -41,7 +41,7 @@ myform.addEventListener("submit", function(e) {
     }
         /**** Control du numéro compte ****/
     let myCompte = document.getElementById("numCompte");
-    let compteRegex = /^[a-zA-Z-\s]+$/;
+    let compteRegex = /^[a-zA-Z0-9-]+$/;
 
     if (myCompte.value.trim() == "") {
         let myCompteErr = document.getElementById("missCompte");
@@ -58,7 +58,7 @@ myform.addEventListener("submit", function(e) {
 
         /**** Control de la clé Rib ****/
     let myRib = document.getElementById("cleRib");
-    let ribRegex = /^[a-zA-Z-\s]+$/;
+    let ribRegex = /^[a-zA-Z0-9-' _]+$/;
 
     if (myRib.value.trim() == "") {
         let myRibErr = document.getElementById("missRib");
@@ -85,7 +85,7 @@ myform.addEventListener("submit", function(e) {
 
         /**** Control du prenom ****/
     let myPrenom = document.getElementById("prenom");
-    let myRegex = /^[a-zA-Z0-9_]+$/;
+    let myRegex = /^[a-zA-Z]+$/;
 
     if (myPrenom.value.trim() == "") {
         let myPrenomErr = document.getElementById("missPrenom");
@@ -133,7 +133,7 @@ myform.addEventListener("submit", function(e) {
 
         /**** Control du nom ****/
     let myNom = document.getElementById("nom");
-    let nomRegex = /^[a-zA-Z0-9_]+$/;
+    let nomRegex = /^[a-zA-Z]+$/;
 
     if (myNom.value.trim() == "") {
         let myNomErr = document.getElementById("missNom");
@@ -227,7 +227,7 @@ myform.addEventListener("submit", function(e) {
 
         /**** Control du prenom de l'employeur ****/
     let myPrenomEmpl = document.getElementById("prenomEmpl");
-    let employeRegex = /^[a-zA-Z0-9_]+$/;
+    let employeRegex = /^[a-zA-Z]+$/;
 
     if (myPrenomEmpl.value.trim() == "" && status == true) {
         let myPrenomEmplErr = document.getElementById("missPrenomEmpl");
@@ -244,7 +244,7 @@ myform.addEventListener("submit", function(e) {
 
         /**** Control de la raison sicial ****/
     let myRaisonS = document.getElementById("raisonS");
-    let raisonRegex = /^[a-zA-Z0-9_]+$/;
+    let raisonRegex = /^[a-zA-Z0-9 ]+$/;
 
     if (myRaisonS.value.trim() == "" && status == true) {
         let myRaisonSErr = document.getElementById("missRaisonS");
@@ -262,7 +262,7 @@ myform.addEventListener("submit", function(e) {
 
         /**** Control de l'adresse de l'emplyeur ****/
     let myAdressEmpl = document.getElementById("adressEmpl");
-    let adressEmRegex = /^[a-zA-Z0-9_]+$/;
+    let adressEmRegex = /^[a-zA-Z0-9 _-]+$/;
 
     if (myAdressEmpl.value.trim() == "" && status == true) {
         let myAdressEmplErr = document.getElementById("missAdressEmpl");
