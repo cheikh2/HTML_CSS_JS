@@ -4,8 +4,7 @@
         }
         
         body {
-           /* background-image: url(img/nature.jpg);*/
-            background-color: rgb(12, 136, 145);
+            background-image: url(img/nature.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             font-family: sans-serif;
@@ -480,7 +479,7 @@
         
         #missOption {
             position: relative;
-            margin-left: 760px;
+            margin-left: 800px;
             top: -39px;
         }
         
@@ -510,7 +509,7 @@
         
         #missTypeClient {
             position: relative;
-            margin-left: 50px;
+            margin-left: 80px;
             top: 2px;
         }
         
@@ -606,6 +605,10 @@
                 padding: 0 65px;
 
             }
+
+            #missAgence{
+                left: 60px;
+            }
             
             .numAgencelab {
                 left: -200px;
@@ -619,6 +622,10 @@
             .numComptelab {
                 left: 135px;
             }
+
+            #missCompte{
+                left: 600px;
+            }
             
             .cleRib {
                 left: 20px;
@@ -628,21 +635,25 @@
             
             .numRiblab {
                 left: 135px;
-                top: 30px;
+                top: -20px;
             }
 
             #missRib {
-                margin-left: -408px;
+                margin-left: -358px;
                 top: 94px;
             }
             
             .option {
                 left: 370px;
-                top: -40px;
+                top: -22px;
                 width: 332px;
                 padding: 0 65px;
             }
 
+            #missOption{
+                margin-left: 400px;
+                top: 30px;
+            }
             .adress {
                 left: 20px;
                 top: 165px;
@@ -745,7 +756,7 @@
             }
 
             button {  
-                display: block;
+                margin-top: 2px;
                 margin-left: 65px;
                 padding: 14px 110px;
             }
@@ -756,6 +767,7 @@
             }
 
             @media screen and (max-width: 780px)  {
+
                 .compteform {
                     width: 460px;
                    
@@ -792,7 +804,11 @@
                 .numAgencelab {
                     left: -160px;
                 }
-                
+
+                #missAgence{
+                    margin-left: -20px;
+
+                }
                 .numCompte {
                     left: 223px;
                     padding: 0 5px;
@@ -800,6 +816,10 @@
                 
                 .numComptelab {
                     left: 55px;
+                }
+
+                #missCompte{
+                    margin-left: -220px;
                 }
 
                 .cleRib {
@@ -820,9 +840,13 @@
                 
                 .option {
                     left: 223px;
-                    top: -40px;
+                    top: -23px;
                     width: 212px;
                     padding: 0 5px;
+                }
+                #missOption{
+                    margin-left: 190px;
+                    top: 34px;
                 }
 
                 .prenom {
@@ -867,35 +891,46 @@
                 }
 
                 .typeClient {
-                    left: 225px;
+                    left: 223px;
                     width: 212px;
-                    top: -57px;
+                    top: -75px;
                     padding: 0 5px;
+                }
+
+                #missTypeClient{
+                    margin-left: 260px;
+                    top: -26px;
                 }
 
                 .profession {
                     left: 3px;
+                    top: -115px;
                     padding: 0 5px;
                 }
                 
                 .professionlab {
+                    top: -143px;
                     left: -150px;
                 }
 
                 #missProfession{
                     margin-left: 40px;
+                    top: -66px;
                 }
 
                 .cni {
+                    top: -65px;
                     left: 223px;
                     padding: 0 5px;
                 }
                 
                 .cnilab {
+                    top: -90px;
                     left: 80px;
                 }
 
                 #missCni{
+                    top: -8px;
                     margin-left: -30px;
                 }
 
@@ -910,21 +945,24 @@
     
                 #missAdress {
                     margin-left: -215px;
+                    top: 223px;
                 }
     
                 .telephone {
                     left:223px;
                     padding: 0 5px;
+                    top: 46px;
                 }
                 
                 .telephonelab {
+                    top: 20px;
                     left: 80px;
                     
                 }
     
                 #missTelephone {
                     margin-left: 55px;
-                    top: 125px;
+                    top: 105px;
                 }
 
                 .salaire {
@@ -964,7 +1002,7 @@
                 }
 
                 #missRaisonS{
-                    left: -200px;
+                    margin-left: 136px;
                 }
                 
                 .adressEmpl {

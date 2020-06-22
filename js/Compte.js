@@ -76,9 +76,9 @@ myform.addEventListener("submit", function(e) {
         /**** Control du type de compte ****/
     let myOption = document.getElementById("typeCompte");
 
-    if (myOption.value.trim() == "") {
+    if (myOption.value <= 0) {
         let myOptionErr = document.getElementById("missOption");
-            myOptionErr.innerHTML = "Champ obligatoire";
+            myOptionErr.innerHTML = "Choisir votre compte";
                 myOptionErr.style.color = "red";
                     e.preventDefault();
     }
@@ -150,9 +150,9 @@ myform.addEventListener("submit", function(e) {
         /**** Control du type de client ****/
     let myType = document.getElementById("typeClient");
 
-    if (myType.value.trim() == "" && myType.value == "Type de client") {
+    if (myType.value <= 0 ) {
         let myTypeErr = document.getElementById("missTypeClient");
-            myTypeErr.innerHTML = "Champ obligatoire";
+            myTypeErr.innerHTML = "Choisi votre profil";
                 myTypeErr.style.color = "red";
                     e.preventDefault();
     } 
